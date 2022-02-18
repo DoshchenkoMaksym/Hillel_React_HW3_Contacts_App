@@ -1,0 +1,21 @@
+.contacts__header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.contacts__item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.contacts__deleteButton {
+    width: 50%;
+}
+
+.contacts__main {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.contacts__toForm {
+    margin-top: 20px;
+}
